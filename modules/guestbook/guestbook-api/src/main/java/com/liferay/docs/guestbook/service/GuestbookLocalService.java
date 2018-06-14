@@ -74,6 +74,7 @@ public interface GuestbookLocalService extends BaseLocalService,
 	@Indexable(type = IndexableType.REINDEX)
 	public Guestbook addGuestbook(Guestbook guestbook);
 
+	@Indexable(type = IndexableType.REINDEX)
 	public Guestbook addGuestbook(long userId, java.lang.String name,
 		ServiceContext serviceContext) throws PortalException;
 
