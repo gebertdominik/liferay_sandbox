@@ -31,7 +31,8 @@ import java.util.logging.Logger;
 				"javax.portlet.init-param.template-path=/",
 				"javax.portlet.init-param.view-template=/guestbookwebportlet/view.jsp",
 				"javax.portlet.resource-bundle=content.Language",
-				"javax.portlet.security-role-ref=power-user,user",
+                "javax.portlet.name=" + GuestbookPortletKeys.GUESTBOOK,
+                "javax.portlet.security-role-ref=power-user,user",
 				"javax.portlet.supports.mime-type=text/html"
 		},
 		service = Portlet.class
