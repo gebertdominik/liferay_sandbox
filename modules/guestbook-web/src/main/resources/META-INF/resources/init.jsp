@@ -43,6 +43,16 @@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 <%@ page import="java.util.HashMap" %>
 
 <%@ page import="javax.portlet.PortletURL" %>
+<%@ page import="java.util.Map" %>
+<%@ page import="java.util.HashMap" %>
+
+<%@ page import="com.liferay.asset.kernel.service.AssetEntryLocalServiceUtil" %>
+<%@ page import="com.liferay.asset.kernel.service.AssetTagLocalServiceUtil" %>
+
+<%@ page import="com.liferay.asset.kernel.model.AssetEntry" %>
+<%@ page import="com.liferay.asset.kernel.model.AssetTag" %>
+
+<%@ page import="com.liferay.portal.kernel.util.ListUtil" %>
 <liferay-theme:defineObjects />
 
 <portlet:defineObjects />
